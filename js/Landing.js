@@ -28,6 +28,8 @@ var mySwiperswiper = new Swiper('.mySwiper', {
 
 
 
+
+
 document.addEventListener('DOMContentLoaded', function () {
   
   const menuHamburguesa = document.querySelector('.menu_hamburguesa');
@@ -38,4 +40,13 @@ document.addEventListener('DOMContentLoaded', function () {
    
     menuHamburguesa.classList.toggle('active');
   });
+});
+
+
+
+
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+
+darkModeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
 });
