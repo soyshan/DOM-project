@@ -63,6 +63,7 @@ formulario.addEventListener('submit', (e) => {
 
 		document.querySelectorAll('.formulario__grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formulario__grupo-correcto');
+			window.location.href = "paginafinal.html";
 		});
 	} else {
 		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
@@ -70,11 +71,3 @@ formulario.addEventListener('submit', (e) => {
 });
 
 
-var miBoton = document.getElementById('miBoton');
-
-        // Agrega un evento de clic al botón
-        miBoton.addEventListener('click', function() {
-            // Redirige al usuario a la páginafinal.html
-            window.location.href = 'paginafinal.html';
-        });
-		
