@@ -15,7 +15,7 @@ body::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url(/Recursos/cookingpastabg.jpg);
+    background-image: url(../Recursos/cookingpastabg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.4; 
