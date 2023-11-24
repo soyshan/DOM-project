@@ -417,7 +417,7 @@ h1{
 }
 
 h2 {
-  margin-right: -14rem;
+  margin-right: 0rem;
   margin-left: -3rem;
   margin-top: 3rem;
    }
@@ -494,7 +494,7 @@ h2 {
 
 .swiper-container {
   position: relative;
-  margin: 5rem 7.5rem -7rem 4rem;
+  margin: 5rem 0rem -7rem 4rem;
   width: 75%;
   margin-bottom: 10rem;;
 }
