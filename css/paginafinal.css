@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@700&family=Inria+Sans&display=swap');
+
+*{ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inria Sans', sans-serif;
+  font-size:20px;
+}
+
+
+.header {
+  display:flex;
+  background-color:#BFEE9A;
+  justify-content:flex-end;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+  word-spacing: 40px;
+}
+
+.bodystyle{
+  background-image:url(/Recursos/bgpaginafinal.png);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-attachment: fixed;
+  background: cover;
+}
+
+.texto{
+  margin-top: 19%;
+  display: flex;
+  margin-left:40%;
+  margin-bottom: 30%;
+  position: fixed;
+  text-align: center;
+  font-size: 25px;
+  }
+
+.boton {
+  background-color:#FFD53F;
+  padding: 10px 20px;
+  border:0;
+  border-radius:30px;
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+  margin-top: 22%;
+  margin-left:42%;
+
+}
+
+.boton-efecto{
+  transition: transform 0.3s ease-in-out;
+}
+.boton-efecto:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+.header .logo{
+ 
+  margin-right:auto;
+}
+
+.header .logo img{
+  height: 75px;
+  width: auto;
+}
+
+
+.header .navlinks
+{list-style:none;
+}
+
+
+.header .navlinks2 li {
+  display:inline-block;
+  padding:0 20xp;
+}
+.header .navlinks2 li:hover{transform: scale(1.1);}
+
+
+.header .navlinks2 a{
+  font-size:700;
+  color:black;
+  text-decoration: none;
+}
+
+header .navlinks2 a:hover{
+  color: white;
+}
+
+
+
+/*----------------Menu hamburguesa-------*/
+
+
+.menu_hamburguesa {
+  border-style: none;
+  background: transparent;
+  display: none;
+}
+
+
+.menu_desplegable {
+  display: none; /* para que se oculte al principio*/
+  position: absolute;
+  top: 70px; 
+  right: 0;
+  background-color: #ffffff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  flex-direction: column;
+
+}
+
+/* Estilos para los elementos del menú desplegable */
+.menu_desplegable a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000000; 
+}
+
+
+.menu_desplegable a:hover {
+  background-color: #BFEE9A; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Muestra el menú desplegable cuando el menú hamburguesa está activo */
+.menu_hamburguesa.active + .menu_desplegable {
+  display: block;
+}
+
+/*----------------Menu hamburguesa-------*/
+
+
+@media only screen and (max-width: 767px) {
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+  
+}
+
+.header.navlinks{
+  display: none;
+}
+.header .navlinks-active{
+  list-style:none;
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.menu_hamburguesa{
+  display: block;
+  cursor: pointer;
+}
+
+
+
+.navlinks2{
+  display: none;
+}
+
+
+.texto{
+  margin-top: 72%;
+  display: flex;
+  margin-left:9%;
+  margin-bottom: 50%;
+  position: fixed;
+  text-align: center;
+  font-size: 25px;
+  }
+
+.boton {
+  
+  padding: 10px 20px;
+  border:0;
+  border-radius:30px;
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+  margin-top: 95%;
+  margin-left:14%;
+}
+
+
+
+  }
