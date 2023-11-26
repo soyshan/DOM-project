@@ -6,3 +6,4 @@ When you click on the buttons you can see the form of register and login, which 
 And finally you have a final page, where it´s just indicate that you have complete the form and there is a button to download the fictitious app.
 
 I have to made the blog section and also a form to confirm that the user want to suscribe to the newsletter, but mainly the idea is that, with same colours and style.
+Link to see my website design: https://soyshan.github.io/DOM-project/
